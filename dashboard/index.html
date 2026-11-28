@@ -24,6 +24,7 @@
   .badge { display:inline-block; margin-bottom:10px; padding:2px 10px; font-size:12px; font-weight:700;
            color:var(--accent); border:1px solid var(--accent); border-radius:999px; }
   .title { font-size:18px; font-weight:700; }
+  .desc { display:block; margin-top:8px; color:var(--muted); font-size:13px; line-height:1.5; }
   .go { display:block; margin-top:16px; color:var(--accent); font-size:14px; }
   .go::after { content:" \2192"; display:inline-block; transition:transform .15s ease; }
   .card:hover .go::after, .card:focus-visible .go::after { transform:translateX(4px); }
@@ -61,6 +62,12 @@
     <a class="card" href="delivery-model-10/delivery_model_review.html">
       <span class="badge">10회차</span>
       <span class="title">배송 운영 모델 검토</span>
+      <span class="go">열기</span>
+    </a>
+    <a class="card" href="delivery-operations-12/delivery_operations.html">
+      <span class="badge">12회차</span>
+      <span class="title">배송 운영 현황</span>
+      <span class="desc">10월 운영 주문 위험 현황, 대응 우선순위(1~4순위), 센터별 위험 그래프, 엑셀 다운로드 · 모델: 가중치 적용 랜덤포레스트, 임계값 50%</span>
       <span class="go">열기</span>
     </a>
   </div>
